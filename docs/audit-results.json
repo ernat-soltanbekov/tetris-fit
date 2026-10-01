@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "official_sha256_verified": 11,
+  "invalid_fixtures": 6,
+  "concurrent_processes": 32,
+  "cases": [
+    {
+      "file": "goodexample00",
+      "side": 2,
+      "holes": 0,
+      "attempts": 1,
+      "backtracks": 0,
+      "solver_time": "99.333µs",
+      "wall_ms": 358.284
+    },
+    {
+      "file": "goodexample01",
+      "side": 5,
+      "holes": 9,
+      "attempts": 133,
+      "backtracks": 18,
+      "solver_time": "90.458µs",
+      "wall_ms": 9.772
+    },
+    {
+      "file": "goodexample02",
+      "side": 4,
+      "holes": 4,
+      "attempts": 61,
+      "backtracks": 0,
+      "solver_time": "33.791µs",
+      "wall_ms": 7.237
+    },
+    {
+      "file": "goodexample03",
+      "side": 5,
+      "holes": 5,
+      "attempts": 69,
+      "backtracks": 0,
+      "solver_time": "44.292µs",
+      "wall_ms": 6.497
+    },
+    {
+      "file": "hardexam",
+      "side": 5,
+      "holes": 1,
+      "attempts": 72,
+      "backtracks": 0,
+      "solver_time": "52.875µs",
+      "wall_ms": 6.259
+    },
+    {
+      "file": "max-squares",
+      "side": 12,
+      "holes": 40,
+      "attempts": 2121,
+      "backtracks": 0,
+      "solver_time": "148.25µs",
+      "wall_ms": 6.109
+    },
+    {
+      "file": "max-bars",
+      "side": 12,
+      "holes": 40,
+      "attempts": 1859,
+      "backtracks": 0,
+      "solver_time": "67.125µs",
+      "wall_ms": 5.895
+    },
+    {
+      "file": "rotation-demo",
+      "side": 3,
+      "holes": 1,
+      "attempts": 15,
+      "backtracks": 0,
+      "solver_time": "29.834µs",
+      "wall_ms": 5.409
+    },
+    {
+      "file": "rotation-demo",
+      "side": 4,
+      "holes": 8,
+      "attempts": 14,
+      "backtracks": 2,
+      "solver_time": "29µs",
+      "wall_ms": 5.663
+    }
+  ]
+}

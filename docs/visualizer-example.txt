@@ -1,0 +1,75 @@
+Trying 3x3 square
+...
+...
+...
+attempts: 0, backtracks: 0
+
+Step 1: place piece A
+A..
+A..
+AA.
+attempts: 2, backtracks: 0
+
+Step 2: backtrack piece A
+...
+...
+...
+attempts: 3, backtracks: 1
+
+Step 3: place piece A
+.A.
+.A.
+.AA
+attempts: 3, backtracks: 1
+
+Step 4: backtrack piece A
+...
+...
+...
+attempts: 3, backtracks: 2
+
+Trying 4x4 square
+....
+....
+....
+....
+attempts: 3, backtracks: 2
+
+Step 5: place piece A
+A...
+A...
+AA..
+....
+attempts: 9, backtracks: 2
+
+Step 6: place piece B
+A.B.
+A.B.
+AABB
+....
+attempts: 14, backtracks: 2
+
+Final solution reached.
+A.B.
+A.B.
+AABB
+....
+attempts: 14, backtracks: 2
+
+
+=== Solution Analysis ===
+
+Input file: "testdata/rotation-demo.txt"
+Tetrominoes: 2
+
+Solution quality:
+  Grid size: 4x4 (16 cells)
+  Filled cells: 8
+  Empty cells: 8
+  Compactness: 50.00%
+  Theoretical minimum: 3x3 (does not match; geometric constraints require a larger square)
+
+Performance:
+  Execution time: 88.792µs
+  Placement attempts: 14
+  Backtracks: 2
