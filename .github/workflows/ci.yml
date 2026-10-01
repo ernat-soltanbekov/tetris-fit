@@ -1,0 +1,29 @@
+name: Audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        go: ['1.25.x', '1.27.x']
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-go@v7.0.0
+        with:
+          go-version: ${{ matrix.go }}
+          cache: false
+      - name: Confirm standard-library-only dependencies
+        run: test "$(go list -m all)" = github.com/ernat-soltanbekov/tetris-fit
+      - name: Format, vet, race tests and executable audit
+        run: make check
+      - name: Fuzz malformed input and small exact solutions
+        run: make fuzz
