@@ -1,0 +1,57 @@
+[
+  {
+    "file": "badexample00.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badexample00.txt",
+    "sha256": "c6423d11cfe6e1b877697602efe3feff34712582290c0170268d982f2eec8d1d"
+  },
+  {
+    "file": "badexample01.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badexample01.txt",
+    "sha256": "6f8f48840edd6cae7306d91e4ceb5dd2ad4a78dd40f6e4e20b73456bc0064788"
+  },
+  {
+    "file": "badexample02.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badexample02.txt",
+    "sha256": "33ad888ad558b300bae94ea58142304452dd59fba23efea95d92635b2339a01f"
+  },
+  {
+    "file": "badexample03.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badexample03.txt",
+    "sha256": "08d4a972c3504c7a97b2b2eb3f05342000246a00e0394907d91f1a9b05b1d44b"
+  },
+  {
+    "file": "badexample04.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badexample04.txt",
+    "sha256": "4607570fba34bae610be60d4b9fcbeee12944469eab6d874448cb52141c002c9"
+  },
+  {
+    "file": "badformat.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/badformat.txt",
+    "sha256": "29324e7c40b6d7f8543d14313046047f30a079b0e2ce9d839db6ccb06bfa1b1e"
+  },
+  {
+    "file": "goodexample00.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/goodexample00.txt",
+    "sha256": "a2e4988d7a9bd69671411a339b531eea252883217986a792892469db4714a19e"
+  },
+  {
+    "file": "goodexample01.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/goodexample01.txt",
+    "sha256": "51885c59e56b4aed2cd923de7417f6b77fc18654443619f16fef0ca5deb22922"
+  },
+  {
+    "file": "goodexample02.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/goodexample02.txt",
+    "sha256": "d4bbda365fcfde806d610d5413a790383642161729e6563091ea59c860f2c1f9"
+  },
+  {
+    "file": "goodexample03.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/goodexample03.txt",
+    "sha256": "66af2e650e185cbea6636241a754e233b641f2d6a7968f270a372c8369fcad1a"
+  },
+  {
+    "file": "hardexam.txt",
+    "source": "https://01.tomorrow-school.ai/api/content/root/01-edu_ai-module/content/tetris-fit/testdata/hardexam.txt",
+    "sha256": "11cbe15e47e4242c8166488f0fa7f9c1ab03901e8f17e4bd052b4e851b852277"
+  }
+]
